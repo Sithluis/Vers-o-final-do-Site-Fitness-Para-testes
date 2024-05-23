@@ -9,6 +9,7 @@ body, html {
     height: 100%;
     box-sizing: border-box;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 body {
@@ -79,26 +80,20 @@ body {
     padding-bottom: 1.2rem;
 }
 
-.hamburguer{
-    margin-left: 430px;
+.hamburguer, .close {
     font-size: 24px;
     background: none;
     border: none;
-    color: #fff;
     cursor: pointer;
+    color: #fff;
     display: none;
 }
 
 .close {
     margin-top: 20px;
-    margin-right: 20px;
+    margin-left: 20px;
     display: block;
     align-self: end;
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: #fff;
-    cursor: pointer;
 }
 
 .flex {
